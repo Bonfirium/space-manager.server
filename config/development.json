@@ -1,0 +1,10 @@
+{
+	"db": {
+		"database": "bf_02_office"
+	},
+	"cors": true,
+	"port": 3222,
+	"logger": {
+		"level": "trace"
+	}
+}

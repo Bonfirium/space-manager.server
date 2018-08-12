@@ -1,0 +1,16 @@
+{
+	"port": 3222,
+	"db": {
+		"user": "",
+		"password": "",
+		"host": "127.0.0.1",
+		"port": "27017",
+		"database": ""
+	},
+	"encryptionKey": "keykeykey",
+	"cors": false,
+	"session_secret": "00000000",
+	"logger": {
+		"level": "trace "
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"name": "office",
+	"description": "Office - Bonfirium",
+	"version": "0.0.1",
+	"scripts": {
+		"start": "babel-node server.js",
+		"s4ever": "supervisor babel-node server.js",
+		"lint": "$(npm bin)/eslint . --quiet true"
+	},
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"config": "^1.26.2",
+		"connect-mongo": "^1.3.2",
+		"cookie-parser": "^1.4.3",
+		"cors": "^2.8.4",
+		"express": "^4.15.3",
+		"express-session": "^1.15.6",
+		"log4js": "^2.3.3",
+		"moment": "^2.18.1",
+		"moment-timezone": "^0.5.16",
+		"mongoose": "^4.11.13",
+		"passport": "^0.4.0",
+		"passport.socketio": "^3.7.0",
+		"sha256": "^0.2.0",
+		"socket.io": "^2.0.4"
+	},
+	"devDependencies": {
+		"apidoc": "^0.17.6",
+		"babel-cli": "^6.26.0",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-stage-0": "^6.24.1",
+		"cross-env": "^5.1.4",
+		"eslint": "^4.18.2",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-plugin-import": "^2.9.0",
+		"eslint-plugin-jsx-a11y": "^6.0.3",
+		"eslint-plugin-react": "^7.7.0",
+		"socket.io-client": "^2.0.4"
+	}
+}
